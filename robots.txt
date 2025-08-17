@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://portfolio-febon.replit.app/sitemap.xml
+
+# Crawl-delay for better server performance
+Crawl-delay: 1
+
+# Block access to sensitive areas
+Disallow: /server.js
+Disallow: /package.json
+Disallow: /node_modules/
+Disallow: /.replit
+Disallow: /replit.nix
